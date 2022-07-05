@@ -1,0 +1,49 @@
+@media (max-width: 107em) {
+  .donut-name,
+  .price {
+    font-size: 2.8rem;
+  }
+
+  .testimonial {
+    width: 60rem;
+    height: 14rem;
+  }
+}
+
+@media (max-width: 96em) {
+  .donut-name,
+  .price {
+    font-size: 2.4rem;
+  }
+
+  .donut-description {
+    font-size: 1.4rem;
+  }
+
+  .cta-text {
+    font-size: 1.6rem;
+  }
+
+  .testimonial {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 88em) {
+  .macro-list {
+    font-size: 1.4rem;
+  }
+
+  .donut-name,
+  .price {
+    font-size: 2rem;
+  }
+
+  .text-medium {
+    font-size: 1.6rem;
+  }
+
+  .cta-text {
+    font-size: 1.4rem;
+  }
+}

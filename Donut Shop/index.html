@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donut Shop</title>
+
+    <link
+      rel="icon"
+      href="img/page icon.svg"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script type="module" defer src="script.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="hero-container">
+        <header>
+          <div class="flex text-medium nav-container">
+            <a class="logo-link" href="#">
+              <div class="company-logo-box">
+                <img
+                  class="company-logo"
+                  src="img/logo.svg"
+                  alt="Dave's Donuts logo"
+                />
+                <p class="logo-text">
+                  Dave's <br />
+                  Donuts
+                </p>
+              </div>
+            </a>
+
+            <nav>
+              <ul class="flex nav-list">
+                <li>
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#shop">Shop</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#subscribe">Subscribe</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><ion-icon class="text-xl" name="cart-outline"></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <div class="flex--col hero-text-box">
+          <h1 class="hero-title">Slim down with<br />Dave's Donuts</h1>
+          <span class="text-medium">
+            Keep your figure in check with our diet-friendly donuts.
+          </span>
+        </div>
+      </div>
+    </section>
+    <section class="logo-section">
+      <div class="flex logo-box">
+        <img
+          class="logos"
+          src="img/Logo Uber Eats.svg"
+          alt="logo of Uber Eats"
+        />
+        <img class="logos" src="img/Logo Amazon.svg" alt="logo of Amazon" />
+        <img
+          class="logos"
+          src="img/the-new-york-times.png"
+          alt="logo of The New York Times"
+        />
+        <img class="logos" src="img/usa-today.png" alt="logo of Amazon" />
+        <img class="logos" src="img/Logo Fitbit.svg" alt="logo of Fitbit" />
+        <img
+          class="logos"
+          src="img/Logo Fitness.svg"
+          alt="logo of Fitness First"
+        />
+        <img class="logos" src="img/Logo Whole.svg" alt="logo of Whole Foods" />
+        <!-- extra test -->
+        <img
+          class="logos"
+          src="img/Logo Uber Eats.svg"
+          alt="logo of Uber Eats"
+        />
+        <img class="logos" src="img/Logo Amazon.svg" alt="logo of Amazon" />
+        <img
+          class="logos"
+          src="img/the-new-york-times.png"
+          alt="logo of The New York Times"
+        />
+        <img class="logos" src="img/usa-today.png" alt="logo of Amazon" />
+        <img class="logos" src="img/Logo Fitbit.svg" alt="logo of Fitbit" />
+      </div>
+    </section>
+    <section class="about-us-section" id="about">
+      <div class="about-us-box">
+        <button class="btn about-us-tab text-xl active-tab" id="tab-1">
+          About us
+        </button>
+        <button class="btn about-us-tab text-xl" id="tab-2">Our Mission</button>
+        <button class="btn about-us-tab text-xl" id="tab-3">
+          Testimonials
+        </button>
+        <!-- about us -->
+        <div class="about-us-content">
+          <div class="flex--col about-us-text-container">
+            <h1 class="about-us-title">
+              Changing fitness 1 <br />donut at a time
+            </h1>
+            <p class="text-medium about-us-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Assumenda illo reprehenderit suscipit dolores sapiente voluptas
+              consequuntur velit inventore quas ratione impedit voluptate ea,
+              sunt nesciunt corporis fugit dolor, non, aspernatur ipsam ex?
+              Aspernatur quia voluptatem ex labore tenetur voluptas porro
+              expedita sapiente quo nostrum fugit quasi eligendi aperiam, sequi
+              reprehenderit excepturi
+            </p>
+          </div>
+          <div class="img-container">
+            <img
+              class="about-us-picture"
+              src="img/Pink donut girl.webp"
+              alt="picture of girl eating donut"
+            />
+          </div>
+        </div>
+        <!-- testimonials -->
+        <div class="testimonial-box hidden">
+          <ion-icon
+            class="arrow arrow-left"
+            name="chevron-back-outline"
+          ></ion-icon>
+          <ion-icon
+            class="arrow arrow-right"
+            name="chevron-forward-outline"
+          ></ion-icon>
+          <div class="testimonials test--1">
+            <!-- Testimonial 1 -->
+            <div class="testimonial">
+              <span
+                ><img class="test-pic" src="img/Test1.jpg" alt="James Durby" />
+                James Durby1111</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="testimonial">
+              <span
+                ><img class="test-pic" src="img/Test2.jpg" alt="Amanda Lee" />
+                Amanda Lee1111</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="testimonial">
+              <span
+                ><img
+                  class="test-pic"
+                  src="img/Test3.jpg"
+                  alt="Jessica Hernandez"
+                />
+                Jessica Hernandez1111</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+            <!-- Testimonial 4 -->
+            <div class="testimonial">
+              <span
+                ><img class="test-pic" src="img/Test4.jpg" alt="Niles Austin" />
+                Niles Austin1111</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+          </div>
+          <!-- TEST 2 box----------------------------------------------------------->
+          <div class="testimonials test--2 testimonials--closed">
+            <div class="testimonial">
+              <span
+                ><img class="test-pic" src="img/Test1.jpg" alt="James Durby" />
+                James Durby2222</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+
+            <div class="testimonial">
+              <span
+                ><img class="test-pic" src="img/Test2.jpg" alt="Amanda Lee" />
+                Amanda Lee2222</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+
+            <div class="testimonial">
+              <span
+                ><img
+                  class="test-pic"
+                  src="img/Test3.jpg"
+                  alt="Jessica Hernandez"
+                />
+                Jessica Hernandez2222</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+
+            <div class="testimonial">
+              <span
+                ><img class="test-pic" src="img/Test4.jpg" alt="Niles Austin" />
+                Niles Austin2222</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+          </div>
+          <!-- END 2 box ----------------------------------------------------------->
+          <!-- TEST 3 box----------------------------------------------------------->
+          <div class="testimonials test--3 testimonials--closed">
+            <div class="testimonial">
+              <span
+                ><img class="test-pic" src="img/Test1.jpg" alt="James Durby" />
+                James Durby3333</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+
+            <div class="testimonial">
+              <span
+                ><img class="test-pic" src="img/Test2.jpg" alt="Amanda Lee" />
+                Amanda Lee3333</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+
+            <div class="testimonial">
+              <span
+                ><img
+                  class="test-pic"
+                  src="img/Test3.jpg"
+                  alt="Jessica Hernandez"
+                />
+                Jessica Hernandez3333</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+
+            <div class="testimonial">
+              <span
+                ><img class="test-pic" src="img/Test4.jpg" alt="Niles Austin" />
+                Niles Austin3333</span
+              >
+              <p class="test-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, ea voluptatem reiciendis exercitationem blanditiis ab
+                pariatur voluptates consectetur sint quis!
+              </p>
+            </div>
+          </div>
+          <!-- END 3 box ----------------------------------------------------------->
+        </div>
+      </div>
+    </section>
+    <section></section>
+    <section class="shopping-section" id="shop">
+      <div class="shopping-banner">
+        <h1>Shop Donuts</h1>
+      </div>
+      <div class="shopping-container">
+        <div class="flex shopping-options-container">
+          <div>
+            <div class="flex btn option-btn">
+              Filter
+              <ion-icon name="options-outline"></ion-icon>
+            </div>
+            <div class="dropdown-menu hidden">
+              <ul class="dropdown-options">
+                <li>Standard</li>
+                <li>Vegan</li>
+                <li>Gluten-Free</li>
+                <li>Keto</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="flex btn option-btn">
+              <span>Sort</span>
+              <ion-icon name="swap-vertical-outline"></ion-icon>
+            </div>
+            <div class="dropdown-menu hidden">
+              <ul class="dropdown-options">
+                <li>Best selling</li>
+                <li>Price</li>
+                <li>Calories</li>
+                <li>Carbs</li>
+                <li>Fat</li>
+                <li>Protien</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="shopping-grid">
+          <!-- card 1 -->
+          <div class="item-card">
+            <div class="flex">
+              <img
+                class="donut-pic"
+                src="img/Donut 1.webp"
+                alt="picture of the donut"
+              />
+
+              <ul class="macro-list">
+                <li class="list-title">Macros</li>
+                <li class="list-item">Calories: 180</li>
+                <li class="list-item">Carbs: 32g</li>
+                <li class="list-item">Fats: 2g</li>
+                <li class="list-item">Protien: 8g</li>
+              </ul>
+            </div>
+            <div class="flex title-price-container text-large">
+              <h3 class="donut-name">Strawberry Slim</h3>
+              <p class="price">$2.79</p>
+            </div>
+            <p class="donut-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium soluta maiores recusandae. Ex, nisi harum.
+            </p>
+          </div>
+          <!-- card 2 -->
+          <div class="item-card">
+            <div class="flex">
+              <img
+                class="donut-pic"
+                src="img/Donut 2.webp"
+                alt="picture of the donut"
+              />
+
+              <ul class="macro-list">
+                <li class="list-title">Macros</li>
+                <li class="list-item">Calories: 350</li>
+                <li class="list-item">Carbs: 26g</li>
+                <li class="list-item">Fats: 14g</li>
+                <li class="list-item">Protien: 26g</li>
+              </ul>
+            </div>
+            <div class="flex title-price-container text-large">
+              <h3 class="donut-name">Big Boy Boba</h3>
+              <p class="price">$2.79</p>
+            </div>
+            <p class="donut-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium soluta maiores recusandae. Ex, nisi harum.
+            </p>
+          </div>
+          <!-- card 3 -->
+          <div class="item-card">
+            <div class="flex">
+              <img
+                class="donut-pic"
+                src="img/Donut 3.webp"
+                alt="picture of the donut"
+              />
+
+              <ul class="macro-list">
+                <li class="list-title">Macros</li>
+                <li class="list-item">Calories: 200</li>
+                <li class="list-item">Carbs: 10g</li>
+                <li class="list-item">Fats: 80g</li>
+                <li class="list-item">Protien: 20g</li>
+              </ul>
+            </div>
+            <div class="flex title-price-container text-large">
+              <h3 class="donut-name">Buff Blueberry</h3>
+              <p class="price">$2.79</p>
+            </div>
+            <p class="donut-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium soluta maiores recusandae. Ex, nisi harum.
+            </p>
+          </div>
+          <!-- card 4 -->
+          <div class="item-card">
+            <div class="flex">
+              <img
+                class="donut-pic"
+                src="img/Donut 4.webp"
+                alt="picture of the donut"
+              />
+
+              <ul class="macro-list">
+                <li class="list-title">Macros</li>
+                <li class="list-item">Calories: 180</li>
+                <li class="list-item">Carbs: 30g</li>
+                <li class="list-item">Fats: 8g</li>
+                <li class="list-item">Protien: 10g</li>
+              </ul>
+            </div>
+            <div class="flex title-price-container text-large">
+              <h3 class="donut-name">Birthday Beauty</h3>
+              <p class="price">$2.79</p>
+            </div>
+            <p class="donut-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium soluta maiores recusandae. Ex, nisi harum.
+            </p>
+          </div>
+          <!-- card 5 -->
+          <div class="item-card">
+            <div class="flex">
+              <img
+                class="donut-pic"
+                src="img/Donut 5.webp"
+                alt="picture of the donut"
+              />
+
+              <ul class="macro-list">
+                <li class="list-title">Macros</li>
+                <li class="list-item">Calories: 210</li>
+                <li class="list-item">Carbs: 1g</li>
+                <li class="list-item">Fats: 14g</li>
+                <li class="list-item">Protien: 16g</li>
+              </ul>
+            </div>
+            <div class="flex title-price-container text-large">
+              <h3 class="donut-name">Cali Coconut</h3>
+              <p class="price">$2.79</p>
+            </div>
+            <p class="donut-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium soluta maiores recusandae. Ex, nisi harum.
+            </p>
+          </div>
+          <!-- card 6 -->
+          <div class="item-card">
+            <div class="flex">
+              <img
+                class="donut-pic"
+                src="img/Donut 6.webp"
+                alt="picture of the donut"
+              />
+
+              <ul class="macro-list">
+                <li class="list-title">Macros</li>
+                <li class="list-item">Calories: 180</li>
+                <li class="list-item">Carbs: 7g</li>
+                <li class="list-item">Fats: 7g</li>
+                <li class="list-item">Protien: 20g</li>
+              </ul>
+            </div>
+            <div class="flex title-price-container text-large">
+              <h3 class="donut-name">Lonely Lemon</h3>
+              <p class="price">$2.79</p>
+            </div>
+            <p class="donut-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium soluta maiores recusandae. Ex, nisi harum.
+            </p>
+          </div>
+        </div>
+        <div>
+          <ul class="flex pagination">
+            <li>
+              <button class="flex btn page-btn active-page">
+                <div class="text-medium">1</div>
+              </button>
+            </li>
+            <li>
+              <button class="flex btn page-btn">
+                <div class="text-medium">2</div>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="flex" id="subscribe">
+      <div class="cta-container">
+        <div class="form-box">
+          <h1 class="cta-title">Get 1 <u>FREE</u> donut every month!</h1>
+          <span class="cta-text"
+            >Sign up now to stay updated on new flavor releases, special
+            deals!<br />
+            And best of all, get 1 <u>free</u> donut every month!</span
+          >
+          <form action="#">
+            <div class="form-grid">
+              <div>
+                <label class="label" for="fname">First Name:</label><br />
+                <input
+                  class="input"
+                  type="text"
+                  name="fname"
+                  id="fname"
+                  placeholder="ex) John"
+                  required
+                />
+              </div>
+
+              <div>
+                <label class="label" for="lname">Last Name:</label><br />
+                <input
+                  class="input"
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  placeholder="ex) Smith"
+                  required
+                />
+              </div>
+
+              <div>
+                <label class="label" for="email">Email address:</label><br />
+                <input
+                  class="input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="abc@123.com"
+                  required
+                />
+              </div>
+
+              <button type="submit" class="btn submit-btn text-medium">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="cta-img-container"></div>
+      </div>
+      <div class="cta-modal flex--col hidden">
+        <button class="btn modal-btn">
+          <ion-icon class="close-icon" name="close-outline"></ion-icon>
+        </button>
+        <h2>Subscribed!</h2>
+        <img
+          class="modal-img"
+          src="img/modal img.svg"
+          alt="confirmation picture"
+        />
+        <span
+          >We've sent you a confirmation email. Please check your email later.
+          <br />(Just kidding. This site isn't real.)</span
+        >
+      </div>
+      <div class="overlay transp overlay--hidden"></div>
+    </section>
+    <section>
+      <div class="faq-modal hidden">
+        <div class="accordion flex--col">
+          <button class="btn modal-btn">
+            <ion-icon class="close-icon" name="close-outline"></ion-icon>
+          </button>
+          <div class="item">
+            <div>
+              <p class="question text-large">When will my donuts arrive?</p>
+            </div>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+            <div class="answer-box">
+              <p>They won't because this isn't a real site.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <p class="question text-large">
+                Will these donuts actually help me lose weight?
+              </p>
+            </div>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+            <div class="answer-box">
+              <p>
+                This is a complicated question,so we'll break the answer down
+                into two parts. <br />
+                <br />
+                First, there are a number of factors at play when talking about
+                weight loss. Beware of any "magical" products that claim to make
+                you lose weight, because as much as we hate to admit it, it just
+                doesn't work that way. However, our donuts have a rather higher
+                protien and fiber content, which has been proven to help with
+                satiety. The ingredients we use are also provide our donuts with
+                higher micronutrients than normal, resulting in less "empty"
+                calories. These two factors combined can be a great help in
+                keeping you on track with your diet.
+                <br />
+                <br />
+                Second, no because these donuts aren't real. Sorry.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <p class="question text-large">
+                There was a problem with my donuts and I want a refund.
+              </p>
+            </div>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+            <div class="answer-box">
+              <p>
+                Customer satisfaction is our number 1 priority. If you have any
+                problems, you can use <span>this link</span> to chat with a
+                customer service representitive. <br />
+                <br />
+                ...Except this isn't a real company, so there aren't any real
+                customer service representitves. We don't even actually make
+                donuts. How are you having this problem?
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <p class="question text-large">There aren't that many FAQs.</p>
+            </div>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+            <div class="answer-box">
+              <p>
+                This isn't even a question. It's a statement. An FAS, if you
+                will.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="flex">
+      <div class="footer-container">
+        <div class="logo-container">
+          <a class="logo-link" href="#">
+            <div class="company-logo-box">
+              <img
+                class="company-logo footer-logo"
+                src="img/logo.svg"
+                alt="Dave's Donuts logo"
+              />
+              <p class="logo-text text-xl">
+                Dave's <br />
+                Donuts
+              </p>
+            </div>
+          </a>
+          <div class="copyright">
+            &copy; All rights reserved by no one because this isn't a real
+            business.
+          </div>
+        </div>
+        <div>
+          <ul class="footer-items">
+            <li><strong>Contact Us</strong></li>
+            <li>davesdonuts@fakemail.com</li>
+            <li>(951) 029-6532-1234</li>
+            <li>
+              123 Dave Street <br />
+              Davey, Daverson 10293
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="footer-items">
+            <li><strong>Customer Support</strong></li>
+            <li><a class="footer-links" id="faq">FAQ</a></li>
+            <li>
+              <a class="footer-links" href="javascript:;">Support Chat</a>
+            </li>
+            <li>
+              <a class="footer-links" href="javascript:;">Privacy and Terms</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="footer-items">
+            <li><strong>Social Media</strong></li>
+            <li>
+              <a class="footer-links" href="javascript:;"
+                ><ion-icon class="social-logo" name="logo-facebook"></ion-icon>
+                Facebook</a
+              >
+            </li>
+            <li>
+              <a class="footer-links" href="javascript:;"
+                ><ion-icon class="social-logo" name="logo-instagram"></ion-icon>
+                Instagram</a
+              >
+            </li>
+            <li>
+              <a class="footer-links" href="javascript:;"
+                ><ion-icon class="social-logo" name="logo-twitter"></ion-icon>
+                Twitter</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
